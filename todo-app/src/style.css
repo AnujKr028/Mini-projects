@@ -1,0 +1,109 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;  
+}  
+
+body{ 
+    display: flex; 
+    justify-content: center; 
+   align-items: center; 
+   height: 100vh; 
+   background: url(https://img.freepik.com/free-vector/young-woman-read-book-public-library-night_107791-27402.jpg?t=st=1736155597~exp=1736159197~hmac=162c9f07644df714cb9a67b1944811480e942673d93144c564961d6947d77f06&w=996); 
+   background-position:center; 
+   background-repeat: no-repeat; 
+   background-size: cover;
+}
+
+
+section{ 
+    border: none; 
+    border-radius: 10px;  
+    /* box-shadow: ; */
+    padding: 50px; 
+    background-color: #AAB99A; 
+    text-align: left; 
+    width: 100%;
+}
+
+input{ 
+
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px; 
+    font-size: 20px;
+} 
+
+.add_task-btn{   
+    background-color: #3D3D3D ; 
+    color: white; 
+    margin: 10px;
+    padding: 10px;  
+    border: none; 
+    border-radius: 15px; 
+    font-size: 1.3em; 
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+} 
+
+.h1-tasks{ 
+    color: #181C14; 
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+ 
+h2{ 
+    margin: 10px; 
+    padding-left: 10px;
+} 
+ul{ 
+    list-style-type: decimal;
+    
+}
+ul li{  
+    display: flex;  
+    justify-content:space-between; 
+    align-items: center;
+    color: #2C3639; 
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; 
+    
+   
+}
+
+.remove-btn{  
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer; 
+    color: #f1f1f1; 
+    cursor: pointer;
+} 
+
+.donebtn{ 
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer; 
+    color: #f1f1f1; 
+    cursor: pointer;
+}
+
+
+.title{ 
+    color: #f1f1f1; 
+    text-align: center; 
+    margin-bottom: 20px;
+    padding-bottom: 40px; 
+    font-size: 3em;  
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+
+}
